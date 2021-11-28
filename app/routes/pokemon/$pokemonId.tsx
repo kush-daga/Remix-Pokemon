@@ -8,7 +8,7 @@ export let loader: LoaderFunction = async ({ params }) => {
 
 export default function PokemonDefault() {
   const data = useLoaderData();
-  console.log('Data:', data);
+  // console.log('Data:', data);
   return (
     <div>
       POKEMON Details
